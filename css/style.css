@@ -9,7 +9,7 @@ header{
     display: flex;
     justify-content: space-between;
     background-color: grey;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 .logoempresa {
@@ -18,9 +18,9 @@ header{
 
 span{
     display: inline-block;
-    width: 80%;
-    font-size: 18px;
-    margin: 8px;
+    width: 100%;
+    font-size: 25px;
+    margin: 25px;
     text-align: left;
 }
 ul {
