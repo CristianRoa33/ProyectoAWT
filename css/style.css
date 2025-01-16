@@ -13,8 +13,31 @@ header{
     border-bottom: 1px solid #2552C5;
 }
 
+header .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+header .navbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+header .navbar ul li {
+    margin: 10px 20px;
+}
+
+header .navbar  ul li a {
+    text-decoration: none;
+    color: #ffff;
+    width: 100%;
+    font-size: 20px;
+}
+
 .logoempresa {
-    width: 4%;
+    width: 5%;
 }
 
 h1 {
@@ -29,24 +52,35 @@ h1 {
     border-bottom: 2px solid #2552C5;
 }
 
-
 span{
     display: inline-block;
     width: 100%;
     font-size: 25px;
-    margin: 25px;
+    margin: 32px;
     text-align: left;
 }
-ul {
+
+
+/* navegable otras paginas  */
+
+header .navbar2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+header .navbar2 ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    
 }
-ul li {
+header .navbar2 ul li {
     margin: 10px 20px;
 }
 
-ul li a {
+header .navbar2  ul li a {
     text-decoration: none;
     color: #ffff;
     width: 100%;
@@ -110,15 +144,13 @@ main {
 .footer_wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background: rgb(14,13,14);
+    align-items: end;
     background: linear-gradient( to right , #BFBFBF , #9E9E9E, #8B8B8B);
     width: 100%;
-    gap: 18px;
 }
     
 .footer_wrapper .caja01  {
     grid-row: 1 / 2;
-    margin: 110px;
 }
 
 .footer_wrapper .caja01 a {
@@ -129,10 +161,34 @@ main {
     font-family: "Inter", serif ;
     color: #004AA9;
     font-size: 20px;
+    font-weight: 600;
     margin: 15px 2px;
     padding: 3px;
 }
 
+.footer_wrapper .caja01  {
+    text-align: center;
+    margin-bottom: 90px; 
+     }
+
 .footer_wrapper .caja02 {
-    grid-column:  2/ 2;
+    grid-row: 1 / 3;
+    margin: 20px;
 }
+
+.footer_wrapper .caja03 {
+    margin-right: 60px;
+}
+
+.logo-sin-fondo {
+    width: 50%;
+    height: 100%;
+    margin-left: 100px;
+}
+
+.copy {
+    font-size: 20px;
+    color: #484848;
+}
+
+/* Otras Paginas */
