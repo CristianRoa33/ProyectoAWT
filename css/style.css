@@ -13,23 +13,23 @@ header{
     border-bottom: 1px solid #2552C5;
 }
 
-header .navbar {
+.navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px 50px;
 }
 
-header .navbar ul {
+.navbar ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
 }
-header .navbar ul li {
+.navbar ul li {
     margin: 10px 20px;
 }
 
-header .navbar  ul li a {
+.navbar  ul li a {
     text-decoration: none;
     color: #ffff;
     width: 100%;
@@ -58,33 +58,6 @@ span{
     font-size: 25px;
     margin: 32px;
     text-align: left;
-}
-
-
-/* navegable otras paginas  */
-
-header .navbar2 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px 50px;
-}
-
-header .navbar2 ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-
-}
-header .navbar2 ul li {
-    margin: 10px 20px;
-}
-
-header .navbar2  ul li a {
-    text-decoration: none;
-    color: #ffff;
-    width: 100%;
-    font-size: 20px;
 }
 
 .foto {
