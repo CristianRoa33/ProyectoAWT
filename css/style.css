@@ -10,6 +10,7 @@ header{
     justify-content: space-between;
     background: linear-gradient( to right , #BFBFBF , #9E9E9E, #8B8B8B);
     box-shadow: 0 10px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #2552C5;
 }
 
 .logoempresa {
@@ -38,6 +39,7 @@ span{
 }
 ul {
     display: flex;
+    justify-content: space-between;
     list-style-type: none;
 }
 ul li {
@@ -106,37 +108,31 @@ main {
 
 
 .footer_wrapper {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     background: rgb(14,13,14);
     background: linear-gradient( to right , #BFBFBF , #9E9E9E, #8B8B8B);
     width: 100%;
+    gap: 18px;
 }
-
-.footer_wrapper .caja01 {
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-    margin-left: 90px;
+    
+.footer_wrapper .caja01  {
+    grid-row: 1 / 2;
+    margin: 110px;
 }
 
 .footer_wrapper .caja01 a {
+    display: flex;
+    flex-direction: column;
     text-decoration: none;
     list-style-type: none;
     font-family: "Inter", serif ;
     color: #004AA9;
     font-size: 20px;
-    margin: 10px 20px;
-    padding: 15px;
+    margin: 15px 2px;
+    padding: 3px;
 }
 
-.footer_wrapper .logo-sin-fondo {
-    width: 80%;
-    margin-right: 80px;
-}
-
-.footer_wrapper div span {
-    color: #ffff;
-    font-size: 20px;
-    font-family: "Inter", serif ;
+.footer_wrapper .caja02 {
+    grid-column:  2/ 2;
 }
