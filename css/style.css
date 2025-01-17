@@ -3,6 +3,7 @@ body {
     padding: 0px;
     box-sizing: border-box;
     font-family: "Inter", serif;
+    background-image: radial-gradient(circle at 51.21% 52.59%, #ffffff 0, #fffffa 25%, #e6ecf2 50%, #c6d8ea 75%, #a9c5e3 100%);
 }
 
 header{
@@ -42,8 +43,7 @@ header{
 
 h1 {
     font-family: "Inter", serif ;
-    font-size: 38pt;
-    line-height: 1.23;
+    font-size: 50px;
     font-weight: 400;
     text-align: center;
     color: rgba(31 , 31, 31 , 1);
@@ -300,4 +300,68 @@ section {
 
 iframe {
     margin: 40px 90px;
+}
+
+/* pagina de servicios */
+.box2 {
+width: 400px;
+height: 500px;
+background-color: #f0f0f0;
+display: flex;
+flex-direction: column;
+align-items: center;
+border: 2px solid #fcf9f9;
+border-radius: 70px;
+box-shadow: 7 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container-servicios {
+    display: flex;
+    justify-content:space-between;
+    width: 95%;
+    margin-left: 40px;
+    padding: 10px;
+}
+.header-box2 img {
+    width: 110%;
+    height: 250px;
+    object-fit: cover;
+    align-items: flex-start;
+}
+.body-box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    min-height: 250px;
+}
+
+.body-box2 p {
+    font-size: 18px;
+    font-family: "Inter", serif ;
+    margin: 15px 0 40px;
+    text-align: center;
+}
+.tag {
+    background: #cccccc;
+    border-radius: 50px;
+    font-size: 15px;
+    margin: 0;
+    color: #fff;
+    padding: 2px 1px;
+    cursor: pointer;
+    text-align: center;
+}
+.tag-navyblue {
+    background-color: #00008B;
+}
+.tag-dodgerblue {
+    background-color: #1E90FF;
+}
+.tag-malibu {
+    background-color: #87CEFA;
+}
+.tag-turquoiseblue {
+    background-color: #63C9EB;
 }
