@@ -166,7 +166,7 @@ section {
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    list-style-type: none;
+    
     font-family: "Inter", serif ;
     color: #004AA9;
     font-size: 20px;
@@ -209,12 +209,6 @@ section {
     width: 50px;
     align-self: center;
 }
-/* Otras Paginas */
-
-
-
-
-
 
 /* paginas de nosotros */
 .box1 {
@@ -364,4 +358,35 @@ box-shadow: 7 4px 6px rgba(0, 0, 0, 0.1);
 }
 .tag-turquoiseblue {
     background-color: #63C9EB;
+}
+
+/* Pagina de contacto */
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 130px 250px;
+    width: 100%;
+    height: 100%;
+    color: #00008B;
+}
+
+.contacto h2 {
+    font-family: "Inter", serif ;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.contacto h3 {
+    font-family: "Inter", serif ;
+    font-size: 20 px;
+}
+
+.contacto a {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Inter", serif ;
+    font-size: 20px;
+    color: #00008b;
 }
