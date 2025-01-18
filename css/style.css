@@ -14,6 +14,10 @@ header{
     border-bottom: 1px solid #2552C5;
 }
 
+.header-sticky {
+    position: sticky;
+    top: 0px;
+}
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -300,13 +304,13 @@ iframe {
 .box2 {
 width: 400px;
 height: 500px;
-background-color: #f0f0f0;
+background-color: rgba(255, 255, 255, 0.2);
 display: flex;
 flex-direction: column;
 align-items: center;
 border: 2px solid #fcf9f9;
 border-radius: 70px;
-box-shadow: 7 4px 6px rgba(0, 0, 0, 0.1);
+box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
 }
 
 .container-servicios {
@@ -366,21 +370,21 @@ box-shadow: 7 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 130px 250px;
-    width: 100%;
-    height: 100%;
+    margin: 3px 20px;
     color: #00008B;
+    height: 70vh;
 }
 
 .contacto h2 {
     font-family: "Inter", serif ;
     font-size: 30px;
     font-weight: 700;
+    margin: 50px;
 }
 
 .contacto h3 {
     font-family: "Inter", serif ;
-    font-size: 20 px;
+    font-size: 10 px;
 }
 
 .contacto a {
@@ -389,4 +393,17 @@ box-shadow: 7 4px 6px rgba(0, 0, 0, 0.1);
     font-family: "Inter", serif ;
     font-size: 20px;
     color: #00008b;
+    margin: 20px;
 }
+
+.box3 {
+    width: 700px;
+    height: 900px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #fcf9f9;
+    border-radius: 70px;
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+    }
